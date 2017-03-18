@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog de Música</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+<!-- NOTE: Encabezado y NavBar -->
+      <div class="row titulo">
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center logo">
+          <img src="img/logo.png" width="40%" alt="">
+        </div>
+        <div class="col-xs-5 col-sm-3 col-md-3 col-xs-offset-4 col-sm-offset-6 col-md-offset-6 text-center" id="social" >
+          <a href="#"><img src="img/fb.png" width="15%" alt=""></a>
+          <a href="#"><img src="img/yt.png" width="15%" alt=""></a>
+          <a href="#"><img src="img/tw.png" width="15%" alt=""></a>
+          <a href="#"><img src="img/pi.png" width="15%" alt=""></a>
+          <a href="#"><img src="img/in.png" width="15%" alt=""></a>
+        </div>
+      </div>
+
+<!-- NOTE: Navegacion -->
+      <nav class="row just">
+        <div class="col-xs-12 col-sm-2 col-lg-2 text-center">
+           <button type="button" class="btn btn-warning btn-lg btn-default btn-group-justified">Inicio</button>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-lg-2 text-center">
+           <button type="button" class="btn btn-warning btn-lg btn-default btn-group-justified">Artistas</button>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-lg-2 text-center">
+           <button type="button" class="btn btn-warning btn-lg btn-default btn-group-justified">Grupos</button>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-lg-2 text-center">
+           <button type="button" class="btn btn-warning btn-lg btn-default btn-group-justified">Top 10</button>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-lg-2 text-center">
+           <button type="button" class="btn btn-warning btn-lg btn-default btn-group-justified">Letras</button>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-lg-2 text-center">
+           <button type="button" class="btn btn-warning btn-lg btn-default btn-group-justified">Acordes</button>
+        </div>
+      </nav>
+
+<!-- NOTE: contenido Principal -->
+      <div class="row contenedor">
+        <div class="col-xs-12 col-sm-8 col-lg-8">
+          <div class="col-xs-12 col-sm-9 col-lg-9">
+            <h3>Ricardo Arjona</h3>
+            <p>
+              Édgar Ricardo Arjona Morales (Jocotenango, Guatemala, 19 de enero de 1964), conocido artísticamente como Ricardo Arjona, es un cantautor y músico guatemalteco. Su música varía desde baladas a pop latino, rock, pop rock, música cubana, y, más recientemente incluye actuaciones a capella y una mezcla de música tejana y norteña, música afroamericana y latina. Se estima que ha vendido más de treinta millones de copias de discos a lo largo de su carrera y es considerado uno de los artistas más exitosos de Iberoamérica.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+            <img src="img/arjona.jpg" alt="Musico Guatemalteco" class="imagen">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-lg-12 text-center comentario">
+            <div class="col-xs-2 col-sm-2 col-md-2">
+                <span class="glyphicon glyphicon-user tamaño"></span>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10">
+              <textarea name="comentario" rows="1" cols="80" placeholder="Comentario" class="form-control comen"></textarea>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-lg-3 text-center">
+            <img src="img/guitarra.jpg" alt="Instrumento de Cuerdas" class="imagen2">
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-9">
+            <h3>La Guitarra</h3>
+            <p>
+              La guitarra, también conocida como guitarra clásica o guitarra española, es un instrumento musical de cuerda pulsada, compuesto de una caja de madera, un mástil sobre el que va adosado el diapasón o trastero —generalmente con un agujero acústico en el centro de la tapa (boca)—, y seis cuerdas. Sobre el diapasón van incrustados los trastes, que permiten las diferentes notas.
+
+              La guitarra es el instrumento más utilizado en géneros como blues, rock y heavy metal, sobre todo en su variante eléctrica, mientras que en el flamenco se suele usar una guitarra española con ligeras variaciones conocida como guitarra de flamenco. La guitarra clásica es también bastante frecuente entre los cantautores, así como en el folclore de varios países.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+            <div class="col-xs-2 col-sm-2 col-md-2">
+                <span class="glyphicon glyphicon-user tamaño"></span>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10">
+              <textarea name="comentario" rows="1" cols="80" placeholder="Comentario" class="form-control comen"></textarea>
+            </div>
+          </div>
+        </div>
+
+<!-- NOTE: menu de busqueda -->
+        <div class="col-xs-12 col-sm-4 col-lg-4 just hidden-xs">
+          <div class="navbar navbar-default">
+            <form class="navbar-form">
+              <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+              <input type="text" class="form-control" placeholder="Buscar...">
+            </form>
+          </div>
+          <div class="list-group">
+            <a href="#" class="list-group-item">Artistas Nacionales</a>
+            <a href="#" class="list-group-item">Biografias</a>
+            <a href="#" class="list-group-item">Música Nacional</a>
+            <a href="#" class="list-group-item">Orígenes Musicales</a>
+            <a href="#" class="list-group-item">Música en el Mundo</a>
+            <a href="#" class="list-group-item">Arte Musical</a>
+            <a href="#" class="list-group-item">Busqueda de Sonidos</a>
+            <a href="#" class="list-group-item">Instrumentos de Cuerda</a>
+            <a href="#" class="list-group-item">Instrumentos de Viento</a>
+            <a href="#" class="list-group-item">Estudios Musicales</a>
+            <a href="#" class="list-group-item">Más Sobre la Musica</a>
+          </div>
+
+        </div>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

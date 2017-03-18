@@ -1,0 +1,70 @@
+
+body{
+  width:90%;
+  margin:0 auto;
+  background-color: peru;
+}
+.titulo{
+  background-color: white;
+}
+#social
+{
+ margin-top: 102px;
+}
+.just{
+  padding-top: 5px;
+}
+.contenedor{
+  background-color: white;
+  margin-top:5px;
+}
+.imagen{
+  width: 100%;
+  padding-top: 15px;
+  margin-left: -15px;
+}
+.imagen2{
+  width: 100%;
+  padding-top: 15px;
+  margin-left: -15px;
+}
+.tamaño{
+  font-size: 40px;
+}
+.comen{
+  margin-top: 4px;
+  padding-top: 10px;
+  resize: none;
+}
+.comentario{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px){
+#social{
+  margin-top: 10px;
+}
+.imagen{
+  width:80%;
+}
+.logo{
+  width:25%;
+}
+}
+@media (min-width: 501px) and (max-width: 770px){
+#social{
+  margin-top: 20px;
+}
+.imagen{
+  width:80%;
+}
+}
+@media (min-width: 771px) and (max-width: 1200px){
+#social{
+  margin-top: 55px;
+}
+body{
+  width:90%;
+  margin:0 auto;
+}
+}
